@@ -1,0 +1,18 @@
+Linked list does not have indexes.
+It is not contiguous in memory like list
+
+# BIG O
+*Inserting node at the  end is 0(1) as we can just add element and move 
+tail poniter to next node.
+*Inserting node the begining is O(1) as we can just make new node point to head
+and make new node head. 
+*Inserting node at middle is O(n) as we have to traverse the linked list and Insert
+a new node in between 2 nodes. 
+
+*Deleting from end is O(n) as we have to travese all nodes so that we 
+can make second last node tail.
+*Deleting from end is O(1) as we can just make node next to head as head node.
+*Deleting from middle is O(n) as we have to delete a node and change its previous node next to its next node.
+
+Traversing is O(n) 
+
